@@ -1,0 +1,101 @@
+.header {
+  height: 100vh;
+  background: url("../img/background.png") no-repeat center / contain;
+
+  .header__container {
+    height: 100%;
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .header__img {
+    position: absolute;
+    width: 60%;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+
+  .header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    height: 100%;
+  }
+
+  .header__logo {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .header__title {
+    color: #5e5e5e;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.96px;
+    margin: 27px auto 0;
+    text-align: center;
+    font-family: 'Proxima Nova Regular';
+  }
+
+  .header__button {
+    padding: 17px 23px;
+    border: 2px solid #00b4db;
+    color: #555555;
+    font-family: 'Proxima Nova Regular';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.36px;
+    display: block;
+    margin: 0 auto 60px;
+    text-align: center;
+  }
+
+  .header__icons {
+    margin: 35px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header__icon {
+    display: inline-block;
+  }
+
+  .header__icon-laptop {
+    margin-left: 80px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  .header__icon-smartphone {
+    margin-left: 42px;
+  }
+
+  .header__icon-tablet {
+    margin-left: 46px;
+  }
+
+  .header__button-container {
+    margin: 60px auto 0;
+    max-width: 250px;
+  }
+
+  .header__description {
+    flex-basis: 30%;
+  }
+
+  .header__button:hover {
+    transition: all .3s ease;
+    background: #00b4db;
+    color: #555555;
+  }
+}

@@ -1,0 +1,19 @@
+.end-section__inner {
+  margin: 0 auto;max-width: 925px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .end-section__title {
+    font-family: "Proxima Nova Extra bold";
+    color: #00bd50;
+    font-size: 92px;
+    text-transform: uppercase;
+  }
+
+  .end-section__subtitle {
+    font-family: "Proxima Nova Regular";
+    font-size: 36px;
+    text-transform: uppercase;
+  }
+}

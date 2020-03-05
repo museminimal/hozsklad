@@ -1,0 +1,27 @@
+.other-pages__inner {
+  display: flex;
+  margin-top: 50px;
+  position: relative;
+  margin-bottom: 55px;
+
+  .other-pages-wrapper1 {
+    z-index: -1;
+    width: 100%;
+
+    .other-pages-cards1 {
+      margin-top: 30px;
+    }
+  }
+
+  .other-pages-wrapper2 {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    z-index: 2;
+
+    .other-pages-cards2:not(:first-child) {
+      margin-top: 30px;
+    }
+  }
+}
+

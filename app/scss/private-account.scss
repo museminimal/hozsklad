@@ -1,0 +1,63 @@
+.private-account__inner {
+  position: relative;
+  margin: 65px 0 100px;
+
+
+  .private-account__cards-container1 {
+    position: relative;
+    width: 100%;
+    z-index: -1;
+
+    .card1 {
+      top: 0;
+      left: 0;
+    }
+
+    .card2 {
+      top: 80px;
+      right: 0;
+      position: absolute;
+    }
+  }
+
+  .private-account__cards-container2 {
+    margin-top: -160px;
+    width: 100%;
+    z-index: 2;
+    position: relative;
+
+    .card3 {
+      top: 0;
+      left: 0;
+    }
+
+    .card4 {
+      top: 80px;
+      right: 0;
+      position: absolute;
+    }
+  }
+
+  .private-account__cards-container3 {
+    margin-top: -130px;
+    width: 100%;
+    z-index: 4;
+    position: relative;
+
+    .card5 {
+      left: 0;
+      top: 0;
+    }
+
+    .card6 {
+      top: 130px;
+      right: 0;
+      position: absolute;
+    }
+  }
+}
+
+
+
+
+

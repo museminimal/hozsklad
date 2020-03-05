@@ -1,0 +1,172 @@
+.colors {
+  display: flex;
+  align-items: flex-end;
+  padding-top: 110px;
+  margin-bottom: 160px;
+  justify-content: space-around;
+}
+
+.color-square {
+  width: 80px;
+  height: 80px;
+  transform: rotate(45deg);
+  position: relative;
+
+  &_color1 {
+    background-color: #f76c12;
+
+    &::before {
+      border: 1px solid #f76c12;
+    }
+  }
+
+  &_color2 {
+    background-color: #00bd50;
+
+    &::before {
+      border: 1px solid #00bd50;
+    }
+  }
+
+  &_color3 {
+    background-color: #00ceee;
+
+    &::before {
+      border: 1px solid #00ceee;
+    }
+  }
+
+  &_color4 {
+    background-color: #ef4a4a;
+
+    &::before {
+      border: 1px solid #ef4a4a;
+    }
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 98px;
+    height: 98px;
+    top: -9px;
+    right: -8px;
+  }
+}
+
+.color-name {
+  color: #222222;
+  font-family: "Proxima Nova Bold";
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.35px;
+  margin: 30px  25px -20px;
+  display: block;
+  padding: 0 50px 10px 10px;
+  position: relative;
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 122px;
+    height: 30px;
+    top: 0;
+    right: 38px;
+  }
+
+  &.color1-name::before {
+    background: url("../img/color1_line.png") no-repeat center / contain;
+  }
+
+  &.color2-name::before {
+    background: url("../img/color2_line.png") no-repeat center / contain;
+  }
+
+  &.color3-name::before {
+    background: url("../img/color3_line.png") no-repeat center / contain;
+  }
+
+  &.color4-name::before {
+    background: url("../img/color4_line.png") no-repeat center / contain;
+  }
+}
+
+.colors__section {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  transform: translateX(50px);
+}
+
+.fonts {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  &__title {
+    color: #222222;
+    font-family: "Proxima Nova Extra Bold";
+    font-size: 64px;
+    letter-spacing: 1.6px;
+    margin-bottom: 40px;
+  }
+
+  &__letters {
+    color: #222222;
+    font-family: "Proxima Nova Regular";
+    font-size: 18px;
+    letter-spacing: 1.35px;
+    display: block;
+  }
+
+  &__list {
+    position: relative;
+    padding-left: 30px;
+
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 1px;
+      height: 100%;
+      background-color: #cecece;
+      bottom: 15px;
+      left: 0;
+    }
+
+    .fonts__weight-name {
+      color: #222222;
+      font-size: 18px;
+      display: block;
+      margin-bottom: 30px;
+
+      &.fonts__weight-name1 {
+        font-family: 'Proxima Nova Light Italic';
+      }
+
+      &.fonts__weight-name2 {
+        font-family: 'Proxima Nova Regular';
+      }
+
+      &.fonts__weight-name3 {
+        font-family: 'Proxima Nova Semibold';
+      }
+
+      &.fonts__weight-name4 {
+        font-family: 'Proxima Nova Bold';
+      }
+
+      &.fonts__weight-name5 {
+        font-family: 'Proxima Nova Extra Bold';
+      }
+    }
+  }
+}
+
+.fonts-subtitle {
+  margin-bottom: 92px;
+}

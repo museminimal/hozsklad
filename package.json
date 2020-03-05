@@ -1,0 +1,22 @@
+{
+  "name": "hozsklad",
+  "version": "1.0.0",
+  "description": "-",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/museminimal/hozsklad.git"
+  },
+  "author": "Hanna",
+  "license": "ISC",
+  "homepage": "https://github.com/museminimal/hozsklad#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2"
+  }
+}

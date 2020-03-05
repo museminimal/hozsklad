@@ -1,0 +1,21 @@
+.categories {
+  margin-bottom: 130px;
+
+  .categories__inner {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 85px;
+    position: relative;
+
+    .category-card1-container {
+      z-index: 5;
+    }
+
+    .category-card2-container {
+      z-index: -1;
+      position: absolute;
+      top: 107px;
+      right: 0;
+    }
+  }
+}
